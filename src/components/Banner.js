@@ -22,7 +22,7 @@ let ticker = setInterval(() => {
   },delta)
 
   return() => {clearInterval(ticker)}
-}, [text])
+}, [delta, isDeleting, loopNum, toRotate, text]);
 
 const tick = () => {
   let i = loopNum % toRotate.length;
