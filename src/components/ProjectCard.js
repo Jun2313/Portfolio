@@ -8,7 +8,7 @@ export const ProjectCard = ({title, description, imgUrl}) => {
           {({ isVisible }) => 
           <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
       <div className="proj-imgbx">
-        <img src={imgUrl} style={{width: '100%'}}/>
+        <img src={imgUrl} style={{width: '100%'}} alt='imgurl'/>
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>

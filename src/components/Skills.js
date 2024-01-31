@@ -47,19 +47,19 @@ export const Skills = () => {
             </TrackVisibility>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className='item'>
-                  <img src={meter1} alt="" />
+                  <img src={meter1} alt="테스트1" />
                   <h5>테스트1</h5>
                 </div>
                 <div className='item'>
-                  <img src={meter2} alt="" />
+                  <img src={meter2} alt="테스트2" />
                   <h5>테스트2</h5>
                 </div>
                 <div className='item'>
-                  <img src={meter3} alt="" />
+                  <img src={meter3} alt="테스트3" />
                   <h5>테스트3</h5>
                 </div>
                 <div className='item'>
-                  <img src={meter1} alt="" />
+                  <img src={meter1} alt="테스트4" />
                   <h5>테스트1</h5>
                 </div>
               </Carousel>
@@ -67,7 +67,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-left' src={colorSharp} />
+      <img className='background-image-left' src={colorSharp} alt='배경이미지' />
     </section>
 
   )
