@@ -342,7 +342,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Projects */
 .project {
   padding: 120px 0;
-  z-index: -1;
+  z-index: 2;
   position: relative;
   background-color: black;
 }
@@ -460,14 +460,14 @@ border-bottom: 1px solid rgba(255, 255, 255 0.5);
   font-size: 15px;
   letter-spacing: 0.8px;
 }
-.background-image-left {
+/* .background-image-left {
   top: 20%;
   position: absolute;
   bottom: 0;
   width: 100%;
   right: 0;
   z-index: -4;
-}
+} */
 
 .background-image-right {
   width: 100vw;
@@ -476,7 +476,7 @@ border-bottom: 1px solid rgba(255, 255, 255 0.5);
 
 /* Footer */
 .footer {
-  padding: 0 0 50px 0;
+  padding: 8% 50px;
   background-image: url('./assets/img/footer-bg.png');
   background-position:center center;
   background-size: cover;

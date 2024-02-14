@@ -8,9 +8,10 @@ export const Projects = () => {
 
   const projects =[
     {
-      title:"Business Startup",
-      description: "Design % Development",
+      title: "weather API",
+      description: "리액트로 만든 날씨 API",
       imgUrl: projImg1,
+      url: "http://was6074.dothome.co.kr/weather_api", // Add the URL here
     },
     {
       title:"Business Startup",
