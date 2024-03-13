@@ -11,7 +11,7 @@ export const Projects = () => {
       title: "weather API",
       description: "리액트로 만든 날씨 API",
       imgUrl: projImg1,
-      url: "http://was6074.dothome.co.kr/weather", // Add the URL here
+      url: "http://was6074.dothome.co.kr/weather",
     },
     {
       title:"Business Startup",

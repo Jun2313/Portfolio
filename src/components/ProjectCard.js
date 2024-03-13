@@ -4,7 +4,7 @@ import TrackVisibility from 'react-on-screen';
 export const ProjectCard = ({title, description, imgUrl, url}) => {
   return (
     <Col sm={6} md={4}>
-      <a href={url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href={url} rel="noopener noreferrer">
         <div className="proj-imgbx">
           <img src={imgUrl} style={{width: '100%'}} alt='imgurl'/>
           <div className="proj-txtx">
